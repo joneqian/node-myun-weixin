@@ -1,0 +1,52 @@
+{
+  "name": "node-myun-weixin",
+  "version": "1.0.0",
+  "description": "基于redis的分布式微信api",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "keywords": [
+    "npm",
+    "weixin",
+    "redis"
+  ],
+  "homepage": "",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "assert": "^1.4.1",
+    "crypto": "0.0.3",
+    "lodash": "^4.15.0",
+    "redis": "^2.6.2",
+    "request": "^2.74.0",
+    "validator": "^5.5.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "eslint-config-xo-space": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "nock": "^7.2.2"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "author": {
+    "name": "joneqian",
+    "url": "https://github.com/joneqian"
+  },
+  "repository": "",
+  "license": "MIT"
+}
