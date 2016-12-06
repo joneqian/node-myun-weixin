@@ -1,6 +1,6 @@
 {
   "name": "node-myun-weixin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于redis的分布式微信api",
   "main": "./lib/index.js",
   "scripts": {
